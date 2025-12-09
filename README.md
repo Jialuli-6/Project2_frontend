@@ -82,7 +82,7 @@ npm run dev
 The frontend application will run at [http://localhost:5173](http://localhost:5173) (default port, open the link).
 
 <h2>Operation and Verification</h2>
-1.	Ensure the backend service is running prior to the start of the frontend
+1.	Ensure the backend service is running prior to the start of the frontend (open two separate terminals)
 
 ```python
 uvicorn backend_api:app --reload --port 8010

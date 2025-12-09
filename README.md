@@ -66,7 +66,7 @@ npm install react-vega vega vega-lite vega-tooltip vega-themes vega-embed
 
 <h3>Configure API Address (if needed)</h3>
 
-If the backend service address is not [http://localhost:8010], update the base API URL in the frontend code (e.g., in network-related components):</br>
+If the backend service address is not http://localhost:8010, update the base API URL in the frontend code (e.g., in network-related components):</br>
 
 ```python
 ### Example: Modify base API path
@@ -79,7 +79,7 @@ const API_BASE_URL = "http://your-backend-ip:8010/api";
 npm run dev    
 ```
 
-The frontend application will run at [http://localhost:3000](http://localhost:5173) (default port, open the link).
+The frontend application will run at [http://localhost:5173](http://localhost:5173) (default port, open the link).
 
 <h2>Operation and Verification</h2>
 1.	Ensure the backend service is running prior to the start of the frontend
@@ -95,7 +95,7 @@ npm run dev
 ```
 
 3. For macOS, disable AirPlay to avoid port deprecation</br>
-4. Open a browser and access [http://localhost:3000](http://localhost:5173)</br>
+4. Open a browser and access [http://localhost:5173](http://localhost:5173)</br>
 
 
 
